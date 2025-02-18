@@ -7,44 +7,44 @@ use std::fmt::Display;
 // See https://docs.battlesnake.com/api
 #[derive(Deserialize, Serialize, Debug)]
 pub struct Game {
-    id: String,
-    ruleset: HashMap<String, Value>,
-    timeout: u32,
+    pub id: String,
+    pub ruleset: HashMap<String, Value>,
+    pub timeout: u32,
 }
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct Board {
-    height: u32,
-    width: i32,
-    food: Vec<Coord>,
-    snakes: Vec<Battlesnake>,
-    hazards: Vec<Coord>,
+    pub height: u32,
+    pub width: i32,
+    pub food: Vec<Coord>,
+    pub snakes: Vec<Battlesnake>,
+    pub hazards: Vec<Coord>,
 }
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct Battlesnake {
-    id: String,
-    name: String,
-    health: i32,
-    body: Vec<Coord>,
-    head: Coord,
-    length: i32,
-    latency: String,
-    shout: Option<String>,
+    pub id: String,
+    pub name: String,
+    pub health: i32,
+    pub body: Vec<Coord>,
+    pub head: Coord,
+    pub length: i32,
+    pub latency: String,
+    pub shout: Option<String>,
 }
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct Coord {
-    x: i32,
-    y: i32,
+    pub x: i32,
+    pub y: i32,
 }
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct GameState {
-    game: Game,
-    turn: i32,
-    board: Board,
-    you: Battlesnake,
+    pub game: Game,
+    pub turn: i32,
+    pub board: Board,
+    pub you: Battlesnake,
 }
 
 #[derive(Debug)]

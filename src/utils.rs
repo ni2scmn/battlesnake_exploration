@@ -4,11 +4,11 @@ use serde_json::{json, Value};
 // and controls your Battlesnake's appearance
 // TIP: If you open your Battlesnake URL in a browser you should see this data
 pub fn info() -> Value {
-    return json!({
+    json!({
         "apiversion": "1",
         "author": "ni2scmn",
         "color": "#FFD700)",
         "head": "bee",
         "tail": "bolt",
-    });
+    })
 }
