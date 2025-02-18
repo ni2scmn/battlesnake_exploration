@@ -7,8 +7,8 @@ pub fn info() -> Value {
     json!({
         "apiversion": "1",
         "author": "ni2scmn",
-        "color": "#FFD700)",
-        "head": "bee",
-        "tail": "bolt",
+        "color": "#FFD700",
+        "head": "default",
+        "tail": "default",
     })
 }

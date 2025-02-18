@@ -6,7 +6,7 @@ mod utils;
 extern crate rocket;
 
 use crate::game::{GameState, Move};
-use crate::strategy::{RandomStrategy, StrategyState};
+use crate::strategy::{SimpleStrategy, StrategyState};
 use crate::utils::info;
 use rocket::http::Status;
 use rocket::serde::json::Json;
@@ -53,7 +53,7 @@ fn rocket() -> _ {
             Box::pin(async move { info!("Battlesnake server started...") })
         }))
         .manage(StrategyState {
-            strategy: Box::new(RandomStrategy),
+            strategy: Box::new(SimpleStrategy),
         })
         .mount(
             "/",

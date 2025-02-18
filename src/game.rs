@@ -14,7 +14,7 @@ pub struct Game {
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct Board {
-    pub height: u32,
+    pub height: i32,
     pub width: i32,
     pub food: Vec<Coord>,
     pub snakes: Vec<Battlesnake>,
@@ -33,7 +33,7 @@ pub struct Battlesnake {
     pub shout: Option<String>,
 }
 
-#[derive(Deserialize, Serialize, Debug)]
+#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
 pub struct Coord {
     pub x: i32,
     pub y: i32,
@@ -47,12 +47,21 @@ pub struct GameState {
     pub you: Battlesnake,
 }
 
-#[derive(Debug)]
+#[derive(Debug, PartialEq, Eq, Copy, Clone)]
 pub enum Direction {
     Left,
     Right,
     Up,
     Down,
+}
+
+pub fn all_directions() -> Vec<Direction> {
+    vec![
+        Direction::Left,
+        Direction::Right,
+        Direction::Up,
+        Direction::Down,
+    ]
 }
 
 impl Serialize for Direction {
