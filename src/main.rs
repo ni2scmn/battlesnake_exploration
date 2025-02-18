@@ -1,3 +1,5 @@
+mod game;
+
 #[macro_use] extern crate rocket;
 
 #[get("/")]
