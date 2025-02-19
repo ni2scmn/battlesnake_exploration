@@ -1,7 +1,7 @@
-use crate::game::{all_directions, Battlesnake, Board, Coord, Direction, Game, Move};
+use crate::game::{all_directions, Battlesnake, Board, Direction, Game, Move};
 
+use crate::flood_fill::flood_fill;
 use rand::rng;
-use rand::seq::IteratorRandom; // for `choose` method
 use rand::Rng;
 
 pub trait Strategy {
@@ -37,22 +37,10 @@ impl SimpleStrategy {
     fn prevent_self_collision(&self, moves: &mut Vec<Direction>, snake: &Battlesnake) {
         let head = &snake.head;
 
-        let pos_up = Coord {
-            x: head.x,
-            y: head.y + 1,
-        };
-        let pos_down = Coord {
-            x: head.x,
-            y: head.y - 1,
-        };
-        let pos_left = Coord {
-            x: head.x - 1,
-            y: head.y,
-        };
-        let pos_right = Coord {
-            x: head.x + 1,
-            y: head.y,
-        };
+        let pos_up = head.next_coord_in_dir(&Direction::Up);
+        let pos_down = head.next_coord_in_dir(&Direction::Down);
+        let pos_left = head.next_coord_in_dir(&Direction::Left);
+        let pos_right = head.next_coord_in_dir(&Direction::Right);
 
         snake.body.iter().for_each(|bpos| {
             if *bpos == pos_left {
@@ -81,7 +69,6 @@ impl SimpleStrategy {
         let b_height = board.height;
         let b_width = board.width;
 
-
         if head.x == 0 {
             moves.retain(|mv| *mv != Direction::Left);
         }
@@ -97,6 +84,26 @@ impl SimpleStrategy {
     }
 }
 
+fn flood_fill_all_directions(
+    directions: &Vec<Direction>,
+    board: &Board,
+    snake: &Battlesnake,
+) -> Vec<(Direction, usize)> {
+    directions
+        .iter()
+        .map(|direction| {
+            let blocked_pos = snake.body.clone();
+            let reachable_field = flood_fill(
+                snake.head.next_coord_in_dir(direction),
+                &blocked_pos,
+                board.height,
+                board.width,
+            );
+            (*direction, reachable_field.len())
+        })
+        .collect()
+}
+
 impl Strategy for SimpleStrategy {
     fn make_move(&self, game: &Game, board: &Board, snake: &Battlesnake) -> Move {
         let mut possible_moves = all_directions();
@@ -104,17 +111,15 @@ impl Strategy for SimpleStrategy {
         self.prevent_self_collision(&mut possible_moves, snake);
         self.prevent_out_of_bounds(&mut possible_moves, board, snake);
 
-        let mut rng = rng();
+        let flood_fill_scores = flood_fill_all_directions(&possible_moves, board, snake);
 
-        let move_dir = match possible_moves.iter().choose(&mut rng) {
-            None => {
-                Direction::Down // Default direction
+        if let Some((best_dir, score)) = flood_fill_scores.iter().max_by_key(|&(_, value)| value) {
+            Move { dir: *best_dir }
+        } else {
+            // No legal move found
+            Move {
+                dir: Direction::Down,
             }
-            Some(d) => *d,
-        };
-
-        println!("moving to {:?}", move_dir);
-
-        Move { dir: move_dir }
+        }
     }
 }

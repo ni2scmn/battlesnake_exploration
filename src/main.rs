@@ -1,3 +1,4 @@
+mod flood_fill;
 mod game;
 mod strategy;
 mod utils;

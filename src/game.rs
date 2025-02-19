@@ -33,10 +33,33 @@ pub struct Battlesnake {
     pub shout: Option<String>,
 }
 
-#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
+#[derive(Deserialize, Serialize, Debug, PartialEq, Eq, Copy, Clone, Ord, PartialOrd)]
 pub struct Coord {
     pub x: i32,
     pub y: i32,
+}
+
+impl Coord {
+    pub fn next_coord_in_dir(&self, dir: &Direction) -> Coord {
+        match dir {
+            Direction::Left => Coord {
+                x: self.x - 1,
+                y: self.y,
+            },
+            Direction::Right => Coord {
+                x: self.x + 1,
+                y: self.y,
+            },
+            Direction::Up => Coord {
+                x: self.x,
+                y: self.y + 1,
+            },
+            Direction::Down => Coord {
+                x: self.x,
+                y: self.y - 1,
+            },
+        }
+    }
 }
 
 #[derive(Deserialize, Serialize, Debug)]
