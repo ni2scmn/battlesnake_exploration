@@ -1,0 +1,4202 @@
+[
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 1,
+        "turns": 8,
+        "avg_turn_time": 0.000279
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 2,
+        "turns": 6,
+        "avg_turn_time": 0.000238
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 3,
+        "turns": 3,
+        "avg_turn_time": 0.000188
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 4,
+        "turns": 3,
+        "avg_turn_time": 0.001058
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 5,
+        "turns": 5,
+        "avg_turn_time": 0.000323
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 6,
+        "turns": 7,
+        "avg_turn_time": 0.000387
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 7,
+        "turns": 5,
+        "avg_turn_time": 0.000222
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 8,
+        "turns": 7,
+        "avg_turn_time": 0.000295
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 9,
+        "turns": 4,
+        "avg_turn_time": 0.000142
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 10,
+        "turns": 3,
+        "avg_turn_time": 0.000306
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 11,
+        "turns": 4,
+        "avg_turn_time": 0.000151
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 12,
+        "turns": 9,
+        "avg_turn_time": 0.000186
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 13,
+        "turns": 4,
+        "avg_turn_time": 0.000171
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 14,
+        "turns": 3,
+        "avg_turn_time": 0.000185
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 15,
+        "turns": 3,
+        "avg_turn_time": 0.000177
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 16,
+        "turns": 3,
+        "avg_turn_time": 0.000224
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 17,
+        "turns": 3,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 18,
+        "turns": 7,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 19,
+        "turns": 6,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 20,
+        "turns": 3,
+        "avg_turn_time": 0.000178
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 21,
+        "turns": 5,
+        "avg_turn_time": 0.000181
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 22,
+        "turns": 15,
+        "avg_turn_time": 0.000143
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 23,
+        "turns": 10,
+        "avg_turn_time": 0.000151
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 24,
+        "turns": 3,
+        "avg_turn_time": 0.000362
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 25,
+        "turns": 4,
+        "avg_turn_time": 0.000241
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 26,
+        "turns": 4,
+        "avg_turn_time": 0.000255
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 27,
+        "turns": 6,
+        "avg_turn_time": 0.000413
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 28,
+        "turns": 6,
+        "avg_turn_time": 0.002625
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 29,
+        "turns": 4,
+        "avg_turn_time": 0.000153
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 30,
+        "turns": 3,
+        "avg_turn_time": 0.000164
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 31,
+        "turns": 3,
+        "avg_turn_time": 0.000177
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 32,
+        "turns": 6,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 33,
+        "turns": 3,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 34,
+        "turns": 3,
+        "avg_turn_time": 0.000174
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 35,
+        "turns": 3,
+        "avg_turn_time": 0.000162
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 36,
+        "turns": 3,
+        "avg_turn_time": 0.000185
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 37,
+        "turns": 3,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 38,
+        "turns": 3,
+        "avg_turn_time": 0.000185
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 39,
+        "turns": 11,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 40,
+        "turns": 4,
+        "avg_turn_time": 0.000161
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 41,
+        "turns": 11,
+        "avg_turn_time": 0.000141
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 42,
+        "turns": 3,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 43,
+        "turns": 4,
+        "avg_turn_time": 0.000217
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 44,
+        "turns": 4,
+        "avg_turn_time": 0.000143
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 45,
+        "turns": 4,
+        "avg_turn_time": 0.000168
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 46,
+        "turns": 3,
+        "avg_turn_time": 0.000162
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 47,
+        "turns": 3,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 48,
+        "turns": 3,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 49,
+        "turns": 11,
+        "avg_turn_time": 0.000149
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 50,
+        "turns": 4,
+        "avg_turn_time": 0.000142
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 51,
+        "turns": 7,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 52,
+        "turns": 5,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 53,
+        "turns": 5,
+        "avg_turn_time": 0.000173
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 54,
+        "turns": 3,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 55,
+        "turns": 3,
+        "avg_turn_time": 0.000162
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 56,
+        "turns": 8,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 57,
+        "turns": 6,
+        "avg_turn_time": 0.000159
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 58,
+        "turns": 5,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 59,
+        "turns": 4,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 60,
+        "turns": 8,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 61,
+        "turns": 3,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 62,
+        "turns": 3,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 63,
+        "turns": 8,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 64,
+        "turns": 6,
+        "avg_turn_time": 0.000169
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 65,
+        "turns": 7,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 66,
+        "turns": 3,
+        "avg_turn_time": 0.000184
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 67,
+        "turns": 3,
+        "avg_turn_time": 0.000157
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 68,
+        "turns": 3,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 69,
+        "turns": 3,
+        "avg_turn_time": 0.000167
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 70,
+        "turns": 6,
+        "avg_turn_time": 0.00013
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 71,
+        "turns": 9,
+        "avg_turn_time": 0.000149
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 72,
+        "turns": 4,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 73,
+        "turns": 3,
+        "avg_turn_time": 0.000154
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 74,
+        "turns": 15,
+        "avg_turn_time": 0.000141
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 75,
+        "turns": 3,
+        "avg_turn_time": 0.000164
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 76,
+        "turns": 6,
+        "avg_turn_time": 0.000186
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 77,
+        "turns": 7,
+        "avg_turn_time": 0.000182
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 78,
+        "turns": 5,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 79,
+        "turns": 3,
+        "avg_turn_time": 0.000174
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 80,
+        "turns": 5,
+        "avg_turn_time": 0.00017
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 81,
+        "turns": 5,
+        "avg_turn_time": 0.000137
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 82,
+        "turns": 3,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 83,
+        "turns": 4,
+        "avg_turn_time": 0.000151
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 84,
+        "turns": 6,
+        "avg_turn_time": 0.000155
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 85,
+        "turns": 4,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 86,
+        "turns": 3,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 87,
+        "turns": 5,
+        "avg_turn_time": 0.000163
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 88,
+        "turns": 8,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 89,
+        "turns": 8,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 90,
+        "turns": 3,
+        "avg_turn_time": 0.00017
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 91,
+        "turns": 5,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 92,
+        "turns": 4,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 93,
+        "turns": 3,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 94,
+        "turns": 9,
+        "avg_turn_time": 0.000142
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 95,
+        "turns": 3,
+        "avg_turn_time": 0.000165
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 96,
+        "turns": 3,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 97,
+        "turns": 3,
+        "avg_turn_time": 0.000149
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 98,
+        "turns": 7,
+        "avg_turn_time": 0.000159
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 99,
+        "turns": 11,
+        "avg_turn_time": 0.00014
+    },
+    {
+        "strategy": "random",
+        "board_size": "10x10",
+        "game_number": 100,
+        "turns": 3,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 1,
+        "turns": 4,
+        "avg_turn_time": 0.000157
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 2,
+        "turns": 7,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 3,
+        "turns": 3,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 4,
+        "turns": 3,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 5,
+        "turns": 5,
+        "avg_turn_time": 0.000139
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 6,
+        "turns": 5,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 7,
+        "turns": 3,
+        "avg_turn_time": 0.000178
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 8,
+        "turns": 5,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 9,
+        "turns": 6,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 10,
+        "turns": 4,
+        "avg_turn_time": 0.000159
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 11,
+        "turns": 3,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 12,
+        "turns": 3,
+        "avg_turn_time": 0.00017
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 13,
+        "turns": 3,
+        "avg_turn_time": 0.000168
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 14,
+        "turns": 3,
+        "avg_turn_time": 0.000142
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 15,
+        "turns": 5,
+        "avg_turn_time": 0.000186
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 16,
+        "turns": 4,
+        "avg_turn_time": 0.000155
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 17,
+        "turns": 4,
+        "avg_turn_time": 0.000139
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 18,
+        "turns": 9,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 19,
+        "turns": 7,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 20,
+        "turns": 3,
+        "avg_turn_time": 0.00014
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 21,
+        "turns": 4,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 22,
+        "turns": 3,
+        "avg_turn_time": 0.000174
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 23,
+        "turns": 5,
+        "avg_turn_time": 0.000149
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 24,
+        "turns": 3,
+        "avg_turn_time": 0.000165
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 25,
+        "turns": 7,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 26,
+        "turns": 8,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 27,
+        "turns": 3,
+        "avg_turn_time": 0.000143
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 28,
+        "turns": 6,
+        "avg_turn_time": 0.000137
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 29,
+        "turns": 3,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 30,
+        "turns": 3,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 31,
+        "turns": 3,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 32,
+        "turns": 4,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 33,
+        "turns": 3,
+        "avg_turn_time": 0.000161
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 34,
+        "turns": 4,
+        "avg_turn_time": 0.000139
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 35,
+        "turns": 6,
+        "avg_turn_time": 0.000142
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 36,
+        "turns": 7,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 37,
+        "turns": 3,
+        "avg_turn_time": 0.000188
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 38,
+        "turns": 4,
+        "avg_turn_time": 0.000164
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 39,
+        "turns": 4,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 40,
+        "turns": 4,
+        "avg_turn_time": 0.000154
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 41,
+        "turns": 11,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 42,
+        "turns": 7,
+        "avg_turn_time": 0.000143
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 43,
+        "turns": 3,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 44,
+        "turns": 5,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 45,
+        "turns": 3,
+        "avg_turn_time": 0.000164
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 46,
+        "turns": 4,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 47,
+        "turns": 5,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 48,
+        "turns": 6,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 49,
+        "turns": 3,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 50,
+        "turns": 4,
+        "avg_turn_time": 0.000153
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 51,
+        "turns": 4,
+        "avg_turn_time": 0.00014
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 52,
+        "turns": 3,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 53,
+        "turns": 3,
+        "avg_turn_time": 0.000157
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 54,
+        "turns": 4,
+        "avg_turn_time": 0.000134
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 55,
+        "turns": 3,
+        "avg_turn_time": 0.000157
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 56,
+        "turns": 3,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 57,
+        "turns": 5,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 58,
+        "turns": 5,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 59,
+        "turns": 5,
+        "avg_turn_time": 0.000151
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 60,
+        "turns": 10,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 61,
+        "turns": 3,
+        "avg_turn_time": 0.000154
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 62,
+        "turns": 3,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 63,
+        "turns": 3,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 64,
+        "turns": 3,
+        "avg_turn_time": 0.000181
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 65,
+        "turns": 4,
+        "avg_turn_time": 0.000157
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 66,
+        "turns": 3,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 67,
+        "turns": 4,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 68,
+        "turns": 3,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 69,
+        "turns": 3,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 70,
+        "turns": 3,
+        "avg_turn_time": 0.000188
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 71,
+        "turns": 16,
+        "avg_turn_time": 0.000141
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 72,
+        "turns": 3,
+        "avg_turn_time": 0.000155
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 73,
+        "turns": 7,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 74,
+        "turns": 3,
+        "avg_turn_time": 0.000161
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 75,
+        "turns": 5,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 76,
+        "turns": 3,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 77,
+        "turns": 4,
+        "avg_turn_time": 0.000176
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 78,
+        "turns": 3,
+        "avg_turn_time": 0.000162
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 79,
+        "turns": 7,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 80,
+        "turns": 9,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 81,
+        "turns": 3,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 82,
+        "turns": 3,
+        "avg_turn_time": 0.000174
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 83,
+        "turns": 6,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 84,
+        "turns": 5,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 85,
+        "turns": 3,
+        "avg_turn_time": 0.000165
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 86,
+        "turns": 7,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 87,
+        "turns": 3,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 88,
+        "turns": 5,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 89,
+        "turns": 5,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 90,
+        "turns": 4,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 91,
+        "turns": 4,
+        "avg_turn_time": 0.000164
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 92,
+        "turns": 8,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 93,
+        "turns": 3,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 94,
+        "turns": 5,
+        "avg_turn_time": 0.000165
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 95,
+        "turns": 3,
+        "avg_turn_time": 0.00014
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 96,
+        "turns": 10,
+        "avg_turn_time": 0.000135
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 97,
+        "turns": 5,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 98,
+        "turns": 4,
+        "avg_turn_time": 0.000157
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 99,
+        "turns": 3,
+        "avg_turn_time": 0.000174
+    },
+    {
+        "strategy": "random",
+        "board_size": "15x15",
+        "game_number": 100,
+        "turns": 6,
+        "avg_turn_time": 0.000137
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 1,
+        "turns": 4,
+        "avg_turn_time": 0.000153
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 2,
+        "turns": 4,
+        "avg_turn_time": 0.000136
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 3,
+        "turns": 3,
+        "avg_turn_time": 0.000174
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 4,
+        "turns": 3,
+        "avg_turn_time": 0.000193
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 5,
+        "turns": 8,
+        "avg_turn_time": 0.000139
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 6,
+        "turns": 14,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 7,
+        "turns": 3,
+        "avg_turn_time": 0.000151
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 8,
+        "turns": 5,
+        "avg_turn_time": 0.0002
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 9,
+        "turns": 10,
+        "avg_turn_time": 0.000189
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 10,
+        "turns": 5,
+        "avg_turn_time": 0.000173
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 11,
+        "turns": 9,
+        "avg_turn_time": 0.000159
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 12,
+        "turns": 4,
+        "avg_turn_time": 0.000154
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 13,
+        "turns": 3,
+        "avg_turn_time": 0.000173
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 14,
+        "turns": 4,
+        "avg_turn_time": 0.000178
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 15,
+        "turns": 3,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 16,
+        "turns": 6,
+        "avg_turn_time": 0.000155
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 17,
+        "turns": 3,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 18,
+        "turns": 6,
+        "avg_turn_time": 0.000172
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 19,
+        "turns": 3,
+        "avg_turn_time": 0.000177
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 20,
+        "turns": 11,
+        "avg_turn_time": 0.000154
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 21,
+        "turns": 4,
+        "avg_turn_time": 0.000205
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 22,
+        "turns": 4,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 23,
+        "turns": 3,
+        "avg_turn_time": 0.000179
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 24,
+        "turns": 5,
+        "avg_turn_time": 0.000134
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 25,
+        "turns": 4,
+        "avg_turn_time": 0.00014
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 26,
+        "turns": 4,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 27,
+        "turns": 3,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 28,
+        "turns": 3,
+        "avg_turn_time": 0.000182
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 29,
+        "turns": 4,
+        "avg_turn_time": 0.000161
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 30,
+        "turns": 5,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 31,
+        "turns": 3,
+        "avg_turn_time": 0.000162
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 32,
+        "turns": 5,
+        "avg_turn_time": 0.000154
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 33,
+        "turns": 5,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 34,
+        "turns": 3,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 35,
+        "turns": 3,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 36,
+        "turns": 4,
+        "avg_turn_time": 0.00014
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 37,
+        "turns": 3,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 38,
+        "turns": 13,
+        "avg_turn_time": 0.000126
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 39,
+        "turns": 3,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 40,
+        "turns": 4,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 41,
+        "turns": 7,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 42,
+        "turns": 4,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 43,
+        "turns": 4,
+        "avg_turn_time": 0.000161
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 44,
+        "turns": 9,
+        "avg_turn_time": 0.000137
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 45,
+        "turns": 8,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 46,
+        "turns": 7,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 47,
+        "turns": 3,
+        "avg_turn_time": 0.000155
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 48,
+        "turns": 6,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 49,
+        "turns": 3,
+        "avg_turn_time": 0.00018
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 50,
+        "turns": 3,
+        "avg_turn_time": 0.000177
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 51,
+        "turns": 3,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 52,
+        "turns": 5,
+        "avg_turn_time": 0.000136
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 53,
+        "turns": 9,
+        "avg_turn_time": 0.000158
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 54,
+        "turns": 9,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 55,
+        "turns": 3,
+        "avg_turn_time": 0.000154
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 56,
+        "turns": 3,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 57,
+        "turns": 4,
+        "avg_turn_time": 0.000167
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 58,
+        "turns": 3,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 59,
+        "turns": 3,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 60,
+        "turns": 3,
+        "avg_turn_time": 0.000173
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 61,
+        "turns": 3,
+        "avg_turn_time": 0.000184
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 62,
+        "turns": 3,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 63,
+        "turns": 10,
+        "avg_turn_time": 0.000141
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 64,
+        "turns": 3,
+        "avg_turn_time": 0.000178
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 65,
+        "turns": 4,
+        "avg_turn_time": 0.000162
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 66,
+        "turns": 3,
+        "avg_turn_time": 0.000179
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 67,
+        "turns": 5,
+        "avg_turn_time": 0.000166
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 68,
+        "turns": 4,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 69,
+        "turns": 3,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 70,
+        "turns": 3,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 71,
+        "turns": 4,
+        "avg_turn_time": 0.000155
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 72,
+        "turns": 5,
+        "avg_turn_time": 0.00014
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 73,
+        "turns": 4,
+        "avg_turn_time": 0.000149
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 74,
+        "turns": 5,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 75,
+        "turns": 7,
+        "avg_turn_time": 0.000141
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 76,
+        "turns": 3,
+        "avg_turn_time": 0.00018
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 77,
+        "turns": 7,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 78,
+        "turns": 4,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 79,
+        "turns": 3,
+        "avg_turn_time": 0.000198
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 80,
+        "turns": 8,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 81,
+        "turns": 3,
+        "avg_turn_time": 0.000154
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 82,
+        "turns": 4,
+        "avg_turn_time": 0.000141
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 83,
+        "turns": 3,
+        "avg_turn_time": 0.000164
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 84,
+        "turns": 3,
+        "avg_turn_time": 0.000159
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 85,
+        "turns": 3,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 86,
+        "turns": 4,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 87,
+        "turns": 4,
+        "avg_turn_time": 0.00015
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 88,
+        "turns": 7,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 89,
+        "turns": 3,
+        "avg_turn_time": 0.00016
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 90,
+        "turns": 4,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 91,
+        "turns": 4,
+        "avg_turn_time": 0.000155
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 92,
+        "turns": 4,
+        "avg_turn_time": 0.000157
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 93,
+        "turns": 5,
+        "avg_turn_time": 0.000151
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 94,
+        "turns": 4,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 95,
+        "turns": 3,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 96,
+        "turns": 6,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 97,
+        "turns": 7,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 98,
+        "turns": 4,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 99,
+        "turns": 3,
+        "avg_turn_time": 0.000165
+    },
+    {
+        "strategy": "random",
+        "board_size": "20x20",
+        "game_number": 100,
+        "turns": 5,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 1,
+        "turns": 117,
+        "avg_turn_time": 0.000209
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 2,
+        "turns": 330,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 3,
+        "turns": 403,
+        "avg_turn_time": 0.000109
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 4,
+        "turns": 290,
+        "avg_turn_time": 0.000117
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 5,
+        "turns": 344,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 6,
+        "turns": 276,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 7,
+        "turns": 303,
+        "avg_turn_time": 0.000121
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 8,
+        "turns": 209,
+        "avg_turn_time": 0.000117
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 9,
+        "turns": 176,
+        "avg_turn_time": 0.000106
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 10,
+        "turns": 463,
+        "avg_turn_time": 0.000105
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 11,
+        "turns": 109,
+        "avg_turn_time": 9.6e-05
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 12,
+        "turns": 427,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 13,
+        "turns": 240,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 14,
+        "turns": 252,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 15,
+        "turns": 330,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 16,
+        "turns": 261,
+        "avg_turn_time": 0.000103
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 17,
+        "turns": 342,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 18,
+        "turns": 221,
+        "avg_turn_time": 0.000103
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 19,
+        "turns": 103,
+        "avg_turn_time": 0.000104
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 20,
+        "turns": 304,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 21,
+        "turns": 278,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 22,
+        "turns": 164,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 23,
+        "turns": 181,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 24,
+        "turns": 330,
+        "avg_turn_time": 0.000105
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 25,
+        "turns": 270,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 26,
+        "turns": 300,
+        "avg_turn_time": 0.000106
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 27,
+        "turns": 383,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 28,
+        "turns": 383,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 29,
+        "turns": 152,
+        "avg_turn_time": 0.000107
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 30,
+        "turns": 182,
+        "avg_turn_time": 9.9e-05
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 31,
+        "turns": 150,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 32,
+        "turns": 257,
+        "avg_turn_time": 0.000101
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 33,
+        "turns": 363,
+        "avg_turn_time": 0.000111
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 34,
+        "turns": 561,
+        "avg_turn_time": 0.000105
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 35,
+        "turns": 275,
+        "avg_turn_time": 0.000113
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 36,
+        "turns": 232,
+        "avg_turn_time": 0.000113
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 37,
+        "turns": 322,
+        "avg_turn_time": 0.000114
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 38,
+        "turns": 310,
+        "avg_turn_time": 0.000107
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 39,
+        "turns": 390,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 40,
+        "turns": 190,
+        "avg_turn_time": 0.000101
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 41,
+        "turns": 257,
+        "avg_turn_time": 0.000101
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 42,
+        "turns": 186,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 43,
+        "turns": 363,
+        "avg_turn_time": 0.000107
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 44,
+        "turns": 223,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 45,
+        "turns": 196,
+        "avg_turn_time": 0.000113
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 46,
+        "turns": 520,
+        "avg_turn_time": 0.000104
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 47,
+        "turns": 231,
+        "avg_turn_time": 0.000104
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 48,
+        "turns": 383,
+        "avg_turn_time": 0.0001
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 49,
+        "turns": 153,
+        "avg_turn_time": 0.000105
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 50,
+        "turns": 250,
+        "avg_turn_time": 9.9e-05
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 51,
+        "turns": 234,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 52,
+        "turns": 174,
+        "avg_turn_time": 0.000101
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 53,
+        "turns": 195,
+        "avg_turn_time": 0.000109
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 54,
+        "turns": 290,
+        "avg_turn_time": 0.000108
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 55,
+        "turns": 416,
+        "avg_turn_time": 0.00011
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 56,
+        "turns": 261,
+        "avg_turn_time": 0.00011
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 57,
+        "turns": 172,
+        "avg_turn_time": 0.000109
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 58,
+        "turns": 270,
+        "avg_turn_time": 0.000106
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 59,
+        "turns": 197,
+        "avg_turn_time": 0.000112
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 60,
+        "turns": 330,
+        "avg_turn_time": 0.000109
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 61,
+        "turns": 343,
+        "avg_turn_time": 0.000101
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 62,
+        "turns": 313,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 63,
+        "turns": 123,
+        "avg_turn_time": 9.7e-05
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 64,
+        "turns": 105,
+        "avg_turn_time": 0.000104
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 65,
+        "turns": 250,
+        "avg_turn_time": 0.000109
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 66,
+        "turns": 207,
+        "avg_turn_time": 0.000109
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 67,
+        "turns": 305,
+        "avg_turn_time": 0.000108
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 68,
+        "turns": 433,
+        "avg_turn_time": 0.00011
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 69,
+        "turns": 167,
+        "avg_turn_time": 0.000114
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 70,
+        "turns": 346,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 71,
+        "turns": 192,
+        "avg_turn_time": 0.000117
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 72,
+        "turns": 178,
+        "avg_turn_time": 0.000121
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 73,
+        "turns": 350,
+        "avg_turn_time": 0.000103
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 74,
+        "turns": 363,
+        "avg_turn_time": 0.000103
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 75,
+        "turns": 270,
+        "avg_turn_time": 0.000101
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 76,
+        "turns": 380,
+        "avg_turn_time": 0.000101
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 77,
+        "turns": 216,
+        "avg_turn_time": 0.000104
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 78,
+        "turns": 283,
+        "avg_turn_time": 0.000101
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 79,
+        "turns": 130,
+        "avg_turn_time": 9.8e-05
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 80,
+        "turns": 194,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 81,
+        "turns": 323,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 82,
+        "turns": 283,
+        "avg_turn_time": 0.00011
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 83,
+        "turns": 105,
+        "avg_turn_time": 0.00011
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 84,
+        "turns": 196,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 85,
+        "turns": 301,
+        "avg_turn_time": 0.000117
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 86,
+        "turns": 267,
+        "avg_turn_time": 0.000111
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 87,
+        "turns": 311,
+        "avg_turn_time": 0.000105
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 88,
+        "turns": 157,
+        "avg_turn_time": 0.000105
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 89,
+        "turns": 203,
+        "avg_turn_time": 0.000109
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 90,
+        "turns": 163,
+        "avg_turn_time": 0.000106
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 91,
+        "turns": 190,
+        "avg_turn_time": 0.000104
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 92,
+        "turns": 153,
+        "avg_turn_time": 0.000109
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 93,
+        "turns": 256,
+        "avg_turn_time": 0.000108
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 94,
+        "turns": 109,
+        "avg_turn_time": 0.000103
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 95,
+        "turns": 263,
+        "avg_turn_time": 0.000107
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 96,
+        "turns": 278,
+        "avg_turn_time": 0.000107
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 97,
+        "turns": 260,
+        "avg_turn_time": 0.000106
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 98,
+        "turns": 386,
+        "avg_turn_time": 0.000105
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 99,
+        "turns": 326,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "10x10",
+        "game_number": 100,
+        "turns": 306,
+        "avg_turn_time": 0.000102
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 1,
+        "turns": 379,
+        "avg_turn_time": 0.000117
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 2,
+        "turns": 145,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 3,
+        "turns": 196,
+        "avg_turn_time": 0.000112
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 4,
+        "turns": 352,
+        "avg_turn_time": 0.000117
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 5,
+        "turns": 392,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 6,
+        "turns": 149,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 7,
+        "turns": 190,
+        "avg_turn_time": 0.000124
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 8,
+        "turns": 421,
+        "avg_turn_time": 0.000127
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 9,
+        "turns": 170,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 10,
+        "turns": 263,
+        "avg_turn_time": 0.000123
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 11,
+        "turns": 156,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 12,
+        "turns": 221,
+        "avg_turn_time": 0.000125
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 13,
+        "turns": 257,
+        "avg_turn_time": 0.000127
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 14,
+        "turns": 528,
+        "avg_turn_time": 0.000123
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 15,
+        "turns": 291,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 16,
+        "turns": 362,
+        "avg_turn_time": 0.000134
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 17,
+        "turns": 431,
+        "avg_turn_time": 0.000124
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 18,
+        "turns": 480,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 19,
+        "turns": 261,
+        "avg_turn_time": 0.000123
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 20,
+        "turns": 714,
+        "avg_turn_time": 0.000125
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 21,
+        "turns": 768,
+        "avg_turn_time": 0.000129
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 22,
+        "turns": 500,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 23,
+        "turns": 118,
+        "avg_turn_time": 0.000127
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 24,
+        "turns": 570,
+        "avg_turn_time": 0.000124
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 25,
+        "turns": 408,
+        "avg_turn_time": 0.000127
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 26,
+        "turns": 103,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 27,
+        "turns": 660,
+        "avg_turn_time": 0.00013
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 28,
+        "turns": 690,
+        "avg_turn_time": 0.000123
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 29,
+        "turns": 472,
+        "avg_turn_time": 0.000126
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 30,
+        "turns": 381,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 31,
+        "turns": 253,
+        "avg_turn_time": 0.000126
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 32,
+        "turns": 232,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 33,
+        "turns": 291,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 34,
+        "turns": 202,
+        "avg_turn_time": 0.000112
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 35,
+        "turns": 198,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 36,
+        "turns": 173,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 37,
+        "turns": 343,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 38,
+        "turns": 300,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 39,
+        "turns": 166,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 40,
+        "turns": 397,
+        "avg_turn_time": 0.000126
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 41,
+        "turns": 414,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 42,
+        "turns": 127,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 43,
+        "turns": 205,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 44,
+        "turns": 409,
+        "avg_turn_time": 0.000126
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 45,
+        "turns": 195,
+        "avg_turn_time": 0.000114
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 46,
+        "turns": 101,
+        "avg_turn_time": 0.00011
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 47,
+        "turns": 678,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 48,
+        "turns": 498,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 49,
+        "turns": 640,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 50,
+        "turns": 211,
+        "avg_turn_time": 0.000126
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 51,
+        "turns": 158,
+        "avg_turn_time": 0.000125
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 52,
+        "turns": 528,
+        "avg_turn_time": 0.000131
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 53,
+        "turns": 127,
+        "avg_turn_time": 0.000117
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 54,
+        "turns": 147,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 55,
+        "turns": 340,
+        "avg_turn_time": 0.000124
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 56,
+        "turns": 482,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 57,
+        "turns": 604,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 58,
+        "turns": 364,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 59,
+        "turns": 297,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 60,
+        "turns": 167,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 61,
+        "turns": 293,
+        "avg_turn_time": 0.000129
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 62,
+        "turns": 212,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 63,
+        "turns": 162,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 64,
+        "turns": 308,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 65,
+        "turns": 428,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 66,
+        "turns": 363,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 67,
+        "turns": 624,
+        "avg_turn_time": 0.000125
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 68,
+        "turns": 425,
+        "avg_turn_time": 0.000203
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 69,
+        "turns": 690,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 70,
+        "turns": 459,
+        "avg_turn_time": 0.000113
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 71,
+        "turns": 445,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 72,
+        "turns": 175,
+        "avg_turn_time": 0.000112
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 73,
+        "turns": 392,
+        "avg_turn_time": 0.000131
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 74,
+        "turns": 101,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 75,
+        "turns": 483,
+        "avg_turn_time": 0.000114
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 76,
+        "turns": 126,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 77,
+        "turns": 423,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 78,
+        "turns": 193,
+        "avg_turn_time": 0.000113
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 79,
+        "turns": 406,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 80,
+        "turns": 235,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 81,
+        "turns": 196,
+        "avg_turn_time": 0.000152
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 82,
+        "turns": 166,
+        "avg_turn_time": 0.000251
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 83,
+        "turns": 363,
+        "avg_turn_time": 0.00017
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 84,
+        "turns": 246,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 85,
+        "turns": 178,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 86,
+        "turns": 293,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 87,
+        "turns": 175,
+        "avg_turn_time": 0.000118
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 88,
+        "turns": 417,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 89,
+        "turns": 630,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 90,
+        "turns": 219,
+        "avg_turn_time": 0.000112
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 91,
+        "turns": 236,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 92,
+        "turns": 423,
+        "avg_turn_time": 0.000121
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 93,
+        "turns": 606,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 94,
+        "turns": 858,
+        "avg_turn_time": 0.000124
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 95,
+        "turns": 227,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 96,
+        "turns": 483,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 97,
+        "turns": 343,
+        "avg_turn_time": 0.000115
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 98,
+        "turns": 224,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 99,
+        "turns": 367,
+        "avg_turn_time": 0.000116
+    },
+    {
+        "strategy": "simple",
+        "board_size": "15x15",
+        "game_number": 100,
+        "turns": 360,
+        "avg_turn_time": 0.000123
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 1,
+        "turns": 101,
+        "avg_turn_time": 0.000136
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 2,
+        "turns": 396,
+        "avg_turn_time": 0.000136
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 3,
+        "turns": 177,
+        "avg_turn_time": 0.000125
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 4,
+        "turns": 632,
+        "avg_turn_time": 0.000143
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 5,
+        "turns": 546,
+        "avg_turn_time": 0.000149
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 6,
+        "turns": 217,
+        "avg_turn_time": 0.000129
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 7,
+        "turns": 170,
+        "avg_turn_time": 0.000129
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 8,
+        "turns": 101,
+        "avg_turn_time": 0.000127
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 9,
+        "turns": 119,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 10,
+        "turns": 121,
+        "avg_turn_time": 0.000125
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 11,
+        "turns": 317,
+        "avg_turn_time": 0.000132
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 12,
+        "turns": 395,
+        "avg_turn_time": 0.000132
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 13,
+        "turns": 209,
+        "avg_turn_time": 0.00013
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 14,
+        "turns": 477,
+        "avg_turn_time": 0.000134
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 15,
+        "turns": 352,
+        "avg_turn_time": 0.000129
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 16,
+        "turns": 348,
+        "avg_turn_time": 0.000132
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 17,
+        "turns": 582,
+        "avg_turn_time": 0.000149
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 18,
+        "turns": 527,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 19,
+        "turns": 304,
+        "avg_turn_time": 0.000135
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 20,
+        "turns": 348,
+        "avg_turn_time": 0.000134
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 21,
+        "turns": 313,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 22,
+        "turns": 743,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 23,
+        "turns": 547,
+        "avg_turn_time": 0.000151
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 24,
+        "turns": 181,
+        "avg_turn_time": 0.000131
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 25,
+        "turns": 239,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 26,
+        "turns": 500,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 27,
+        "turns": 609,
+        "avg_turn_time": 0.000148
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 28,
+        "turns": 500,
+        "avg_turn_time": 0.000157
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 29,
+        "turns": 103,
+        "avg_turn_time": 0.000554
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 30,
+        "turns": 513,
+        "avg_turn_time": 0.000167
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 31,
+        "turns": 119,
+        "avg_turn_time": 0.000134
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 32,
+        "turns": 137,
+        "avg_turn_time": 0.000132
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 33,
+        "turns": 101,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 34,
+        "turns": 101,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 35,
+        "turns": 438,
+        "avg_turn_time": 0.000138
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 36,
+        "turns": 528,
+        "avg_turn_time": 0.000172
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 37,
+        "turns": 101,
+        "avg_turn_time": 0.000129
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 38,
+        "turns": 368,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 39,
+        "turns": 473,
+        "avg_turn_time": 0.000147
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 40,
+        "turns": 105,
+        "avg_turn_time": 0.000127
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 41,
+        "turns": 465,
+        "avg_turn_time": 0.00014
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 42,
+        "turns": 156,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 43,
+        "turns": 101,
+        "avg_turn_time": 0.000124
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 44,
+        "turns": 137,
+        "avg_turn_time": 0.00013
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 45,
+        "turns": 119,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 46,
+        "turns": 105,
+        "avg_turn_time": 0.00012
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 47,
+        "turns": 269,
+        "avg_turn_time": 0.00013
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 48,
+        "turns": 137,
+        "avg_turn_time": 0.000132
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 49,
+        "turns": 441,
+        "avg_turn_time": 0.000143
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 50,
+        "turns": 408,
+        "avg_turn_time": 0.000122
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 51,
+        "turns": 119,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 52,
+        "turns": 105,
+        "avg_turn_time": 0.000127
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 53,
+        "turns": 101,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 54,
+        "turns": 557,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 55,
+        "turns": 496,
+        "avg_turn_time": 0.000139
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 56,
+        "turns": 101,
+        "avg_turn_time": 0.000121
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 57,
+        "turns": 471,
+        "avg_turn_time": 0.000141
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 58,
+        "turns": 160,
+        "avg_turn_time": 0.000135
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 59,
+        "turns": 426,
+        "avg_turn_time": 0.000141
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 60,
+        "turns": 360,
+        "avg_turn_time": 0.000139
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 61,
+        "turns": 211,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 62,
+        "turns": 452,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 63,
+        "turns": 139,
+        "avg_turn_time": 0.000133
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 64,
+        "turns": 588,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 65,
+        "turns": 394,
+        "avg_turn_time": 0.000135
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 66,
+        "turns": 301,
+        "avg_turn_time": 0.000132
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 67,
+        "turns": 101,
+        "avg_turn_time": 0.000135
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 68,
+        "turns": 355,
+        "avg_turn_time": 0.000136
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 69,
+        "turns": 176,
+        "avg_turn_time": 0.000127
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 70,
+        "turns": 541,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 71,
+        "turns": 101,
+        "avg_turn_time": 0.000126
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 72,
+        "turns": 395,
+        "avg_turn_time": 0.000135
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 73,
+        "turns": 249,
+        "avg_turn_time": 0.00013
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 74,
+        "turns": 269,
+        "avg_turn_time": 0.000125
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 75,
+        "turns": 287,
+        "avg_turn_time": 0.000134
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 76,
+        "turns": 499,
+        "avg_turn_time": 0.000151
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 77,
+        "turns": 526,
+        "avg_turn_time": 0.000149
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 78,
+        "turns": 586,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 79,
+        "turns": 388,
+        "avg_turn_time": 0.000135
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 80,
+        "turns": 101,
+        "avg_turn_time": 0.000119
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 81,
+        "turns": 187,
+        "avg_turn_time": 0.000126
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 82,
+        "turns": 159,
+        "avg_turn_time": 0.000131
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 83,
+        "turns": 177,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 84,
+        "turns": 397,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 85,
+        "turns": 428,
+        "avg_turn_time": 0.000163
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 86,
+        "turns": 105,
+        "avg_turn_time": 0.000135
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 87,
+        "turns": 101,
+        "avg_turn_time": 0.000124
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 88,
+        "turns": 152,
+        "avg_turn_time": 0.000133
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 89,
+        "turns": 680,
+        "avg_turn_time": 0.000143
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 90,
+        "turns": 309,
+        "avg_turn_time": 0.000128
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 91,
+        "turns": 101,
+        "avg_turn_time": 0.000121
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 92,
+        "turns": 485,
+        "avg_turn_time": 0.000146
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 93,
+        "turns": 437,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 94,
+        "turns": 378,
+        "avg_turn_time": 0.000143
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 95,
+        "turns": 459,
+        "avg_turn_time": 0.000145
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 96,
+        "turns": 518,
+        "avg_turn_time": 0.000142
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 97,
+        "turns": 101,
+        "avg_turn_time": 0.000134
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 98,
+        "turns": 586,
+        "avg_turn_time": 0.000144
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 99,
+        "turns": 438,
+        "avg_turn_time": 0.000156
+    },
+    {
+        "strategy": "simple",
+        "board_size": "20x20",
+        "game_number": 100,
+        "turns": 135,
+        "avg_turn_time": 0.000134
+    }
+]
