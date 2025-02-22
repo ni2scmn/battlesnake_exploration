@@ -9,6 +9,10 @@ from pathlib import Path
 from tqdm import tqdm
 
 
+def build_backend():
+    return subprocess.call(["cargo", "build", "--release"])
+
+
 def start_backend(strategy: str):
     return subprocess.Popen(
         ["cargo", "run", "--release", strategy],
@@ -78,6 +82,8 @@ def main():
     )
     log_dir = Path("logs")
     log_dir.mkdir(exist_ok=True)
+
+    build_backend()
 
     for strategy in tqdm(strategies, desc="Strategies", leave=True):
         backend_proc = start_backend(strategy)
