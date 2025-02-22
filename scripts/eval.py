@@ -1,10 +1,11 @@
 import json
-import subprocess
 import re
+import subprocess
 import time
 from collections import defaultdict
 from datetime import datetime, timedelta, date
 from pathlib import Path
+
 from tqdm import tqdm
 
 
@@ -70,7 +71,7 @@ def calculate_average_turn_time(log_lines):
 
 def main():
     strategies = ["random", "simple"]
-    board_sizes = [(10, 10), (15, 15), (20, 20)]
+    board_sizes = [(10, 10), (15, 15), (20, 20), (40, 40), (60, 60)]
     results = []
     aggregated_results = defaultdict(
         lambda: {"total_turns": 0, "total_games": 0, "total_time": 0.0}

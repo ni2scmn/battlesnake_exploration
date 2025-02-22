@@ -1,0 +1,42 @@
+{
+  "random_10x10": {
+    "average_turns": 394.56,
+    "average_turn_time": 0.00011206999999999995
+  },
+  "random_15x15": {
+    "average_turns": 792.21,
+    "average_turn_time": 0.00013507999999999996
+  },
+  "random_20x20": {
+    "average_turns": 851.17,
+    "average_turn_time": 0.00016837999999999996
+  },
+  "random_40x40": {
+    "average_turns": 219.02,
+    "average_turn_time": 0.00024227000000000002
+  },
+  "random_60x60": {
+    "average_turns": 122.53,
+    "average_turn_time": 0.00040594000000000025
+  },
+  "simple_10x10": {
+    "average_turns": 400.69,
+    "average_turn_time": 0.00010563000000000002
+  },
+  "simple_15x15": {
+    "average_turns": 780.74,
+    "average_turn_time": 0.00013246999999999998
+  },
+  "simple_20x20": {
+    "average_turns": 1036.79,
+    "average_turn_time": 0.00017138000000000008
+  },
+  "simple_40x40": {
+    "average_turns": 243.58,
+    "average_turn_time": 0.00024358999999999988
+  },
+  "simple_60x60": {
+    "average_turns": 119.58,
+    "average_turn_time": 0.0004105999999999998
+  }
+}
