@@ -1,8 +1,8 @@
 use crate::game::{all_directions, Battlesnake, Board, Direction, Game, Move};
 
 use crate::flood_fill::flood_fill;
+use crate::pathfinding::dijkstra;
 use rand::rng;
-use rand::seq::IteratorRandom;
 use rand::Rng;
 
 pub trait Strategy {
@@ -120,13 +120,44 @@ impl Strategy for SimpleStrategy {
             .max()
             .unwrap_or(&usize::MAX);
 
-        let chosen_move = flood_fill_scores
+        let max_flood_fill_dirs = flood_fill_scores
             .iter()
             .filter(|(_, v)| *v == *max_ff_score)
-            .choose(&mut rand::rng());
+            .map(|(k, _)| k)
+            .collect::<Vec<_>>();
 
-        if let Some((best_dir, score)) = chosen_move {
-            Move { dir: *best_dir }
+        let max_flood_fill_pos: Vec<_> = max_flood_fill_dirs
+            .iter()
+            .map(|d| snake.head.next_coord_in_dir(d))
+            .collect();
+
+        let goals = &board.food;
+
+        let x = max_flood_fill_pos
+            .iter()
+            .map(|p| {
+                let food_dists = dijkstra(
+                    *p,
+                    goals,
+                    (board.width as u32, board.height as u32),
+                    &snake.body,
+                );
+                let min_f_dist = food_dists
+                    .iter()
+                    .enumerate()
+                    .min_by(|(_, a), (_, b)| a.cmp(b))
+                    .map(|(_, d)| d)
+                    .unwrap();
+                *min_f_dist
+            })
+            .enumerate()
+            .min_by(|(_, a), (_, b)| a.cmp(b))
+            .map(|(i, _)| i);
+
+        if let Some(x) = x {
+            Move {
+                dir: **max_flood_fill_dirs.get(x).unwrap(),
+            }
         } else {
             // No legal move found
             Move {

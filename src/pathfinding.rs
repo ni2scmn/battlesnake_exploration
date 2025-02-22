@@ -28,7 +28,7 @@ impl Ord for DijkQueueItem {
     }
 }
 
-fn dijkstra(
+pub fn dijkstra(
     start: Coord,
     goal: &[Coord],
     board_size: (u32, u32),
