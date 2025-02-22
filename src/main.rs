@@ -1,20 +1,20 @@
-mod flood_fill;
-mod game;
-mod strategy;
-mod utils;
-
 #[macro_use]
 extern crate rocket;
+mod flood_fill;
+mod game;
+mod pathfinding;
+mod strategy;
+mod utils;
 
 use crate::game::{GameState, Move};
 use crate::strategy::{RandomStrategy, SimpleStrategy, Strategy, StrategyState};
 use crate::utils::info;
+use rand::Rng;
 use rocket::http::Status;
 use rocket::serde::json::Json;
 use rocket::State;
-use std::env;
-use rand::Rng;
 use serde_json::Value;
+use std::env;
 
 #[get("/")]
 fn handle_info() -> Json<Value> {
@@ -51,7 +51,7 @@ fn handle_game_over(game_state: Json<GameState>) -> Status {
 fn rocket() -> _ {
     // env_logger::init();
 
-    let strategy_choice = env::args().skip(1).next().expect("No strategy choice given");
+    let strategy_choice = env::args().nth(1).expect("No strategy choice given");
 
     let strategy: Box<dyn Strategy + Send + Sync> = match strategy_choice.as_str() {
         "random" => Box::new(RandomStrategy),
@@ -59,14 +59,11 @@ fn rocket() -> _ {
         _ => panic!("Strategy {} not specified", strategy_choice),
     };
 
-
     rocket::build()
         .attach(rocket::fairing::AdHoc::on_liftoff("Startup msg", |_| {
             Box::pin(async move { info!("Battlesnake server started...") })
         }))
-        .manage(StrategyState {
-            strategy: strategy
-        })
+        .manage(StrategyState { strategy })
         .mount(
             "/",
             routes![handle_info, handle_start, handle_move, handle_game_over],

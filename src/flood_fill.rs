@@ -3,7 +3,7 @@ use std::collections::VecDeque;
 
 pub fn flood_fill(
     start: Coord,
-    blocked_coords: &Vec<Coord>,
+    blocked_coords: &[Coord],
     board_height: i32,
     board_width: i32,
 ) -> Vec<Coord> {

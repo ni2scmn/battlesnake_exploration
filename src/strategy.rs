@@ -85,7 +85,7 @@ impl SimpleStrategy {
 }
 
 fn flood_fill_all_directions(
-    directions: &Vec<Direction>,
+    directions: &[Direction],
     board: &Board,
     snake: &Battlesnake,
 ) -> Vec<(Direction, usize)> {

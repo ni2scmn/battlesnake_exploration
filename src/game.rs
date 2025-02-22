@@ -33,7 +33,7 @@ pub struct Battlesnake {
     pub shout: Option<String>,
 }
 
-#[derive(Deserialize, Serialize, Debug, PartialEq, Eq, Copy, Clone, Ord, PartialOrd)]
+#[derive(Deserialize, Serialize, Debug, PartialEq, Eq, Copy, Clone, Ord, PartialOrd, Hash)]
 pub struct Coord {
     pub x: i32,
     pub y: i32,
@@ -59,6 +59,19 @@ impl Coord {
                 y: self.y - 1,
             },
         }
+    }
+
+    pub fn neighbors(&self, board_size: (u32, u32)) -> Vec<Coord> {
+        [
+            Direction::Left,
+            Direction::Right,
+            Direction::Up,
+            Direction::Down,
+        ]
+            .iter()
+            .map(|c| self.next_coord_in_dir(c))
+            .filter(|n| n.x >= 0 && n.y >= 0 && n.x < board_size.0 as i32 && n.y < board_size.1 as i32)
+            .collect()
     }
 }
 
