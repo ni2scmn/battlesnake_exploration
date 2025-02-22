@@ -2,6 +2,7 @@ use crate::game::{all_directions, Battlesnake, Board, Direction, Game, Move};
 
 use crate::flood_fill::flood_fill;
 use rand::rng;
+use rand::seq::IteratorRandom;
 use rand::Rng;
 
 pub trait Strategy {
@@ -113,7 +114,18 @@ impl Strategy for SimpleStrategy {
 
         let flood_fill_scores = flood_fill_all_directions(&possible_moves, board, snake);
 
-        if let Some((best_dir, score)) = flood_fill_scores.iter().max_by_key(|&(_, value)| value) {
+        let max_ff_score = flood_fill_scores
+            .iter()
+            .map(|(_, v)| v)
+            .max()
+            .unwrap_or(&usize::MAX);
+
+        let chosen_move = flood_fill_scores
+            .iter()
+            .filter(|(_, v)| *v == *max_ff_score)
+            .choose(&mut rand::rng());
+
+        if let Some((best_dir, score)) = chosen_move {
             Move { dir: *best_dir }
         } else {
             // No legal move found
