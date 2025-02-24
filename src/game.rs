@@ -100,6 +100,22 @@ pub fn all_directions() -> Vec<Direction> {
     ]
 }
 
+pub fn get_direction_from_to(from: &Coord, to: &Coord) -> Option<Direction> {
+    if to.x == from.x && to.y == (from.y + 1) {
+        return Some(Direction::Up);
+    }
+    if to.x == from.x && to.y == (from.y - 1) {
+        return Some(Direction::Down);
+    }
+    if to.x == (from.x + 1) && to.y == from.y {
+        return Some(Direction::Right);
+    }
+    if to.x == (from.x - 1) && to.y == from.y {
+        return Some(Direction::Left);
+    }
+    None
+}
+
 impl Serialize for Direction {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
     where
