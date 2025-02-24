@@ -136,19 +136,16 @@ impl Strategy for SimpleStrategy {
         let x = max_flood_fill_pos
             .iter()
             .map(|p| {
-                let food_dists = dijkstra(
-                    *p,
-                    goals,
+                dijkstra(
+                    p.clone(),
                     (board.width as u32, board.height as u32),
                     &snake.body,
-                );
-                let min_f_dist = food_dists
-                    .iter()
-                    .enumerate()
-                    .min_by(|(_, a), (_, b)| a.cmp(b))
-                    .map(|(_, d)| d)
-                    .unwrap();
-                *min_f_dist
+                )
+                .retrieve_distances_for(&goals)
+                .map(|(_, d)| d)
+                .min()
+                .unwrap()
+                .clone()
             })
             .enumerate()
             .min_by(|(_, a), (_, b)| a.cmp(b))

@@ -68,10 +68,10 @@ impl Coord {
             Direction::Up,
             Direction::Down,
         ]
-            .iter()
-            .map(|c| self.next_coord_in_dir(c))
-            .filter(|n| n.x >= 0 && n.y >= 0 && n.x < board_size.0 as i32 && n.y < board_size.1 as i32)
-            .collect()
+        .iter()
+        .map(|c| self.next_coord_in_dir(c))
+        .filter(|n| n.x >= 0 && n.y >= 0 && n.x < board_size.0 as i32 && n.y < board_size.1 as i32)
+        .collect()
     }
 }
 

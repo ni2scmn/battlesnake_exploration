@@ -1,19 +1,59 @@
-use crate::game::Coord;
+use crate::game::{Coord, Direction};
 use std::cmp::Ordering;
 use std::collections::{BinaryHeap, HashMap};
 use std::fmt::Debug;
-
-fn manhatten_distance(pos: Coord, targets: Vec<Coord>) -> Vec<u32> {
-    targets
-        .iter()
-        .map(|target| ((pos.x - target.x).abs() + (pos.y - target.y).abs()) as u32)
-        .collect()
-}
 
 #[derive(Debug, Clone, Eq, PartialEq)]
 struct DijkQueueItem {
     estimated_cost: u32,
     position: Coord,
+}
+
+#[derive(Debug, Clone)]
+pub struct DijkResult {
+    start: Coord,
+    distances: HashMap<Coord, u32>,
+    predecessors: HashMap<Coord, Coord>,
+}
+
+impl DijkResult {
+    pub fn get_distance_ref(&self) -> &HashMap<Coord, u32> {
+        &self.distances
+    }
+
+    pub fn get_predecessor_ref(&self) -> &HashMap<Coord, Coord> {
+        &self.predecessors
+    }
+
+    pub fn get_paths_for(&self, coords: &[Coord]) -> HashMap<Coord, Vec<Coord>> {
+        let mut paths = HashMap::new();
+        for &coord in coords {
+            let mut path = Vec::new();
+            let mut current = coord;
+            while let Some(&predecessor) = self.predecessors.get(&current) {
+                path.push(predecessor);
+                current = predecessor;
+            }
+            path.reverse();
+            paths.insert(coord, path);
+        }
+        paths
+    }
+
+    pub fn retrieve_distances_for<'a, 'b>(
+        &'a self,
+        coords: &'b [Coord],
+    ) -> impl Iterator<Item = (&'b Coord, &'a u32)> {
+        coords
+            .iter()
+            .map(|coord| (coord, self.distances.get(&coord).unwrap_or(&u32::MAX)))
+    }
+
+    pub fn get_direction_for_shortest_goal(&self, coords: &[Coord]) -> Direction {
+        self.retrieve_distances_for(coords);
+
+        Direction::Up
+    }
 }
 
 impl PartialOrd for DijkQueueItem {
@@ -28,14 +68,18 @@ impl Ord for DijkQueueItem {
     }
 }
 
-pub fn dijkstra(
-    start: Coord,
-    goal: &[Coord],
-    board_size: (u32, u32),
-    blocked_pos: &[Coord],
-) -> Vec<u32> {
+fn manhatten_distance(pos: Coord, targets: Vec<Coord>) -> Vec<u32> {
+    targets
+        .iter()
+        .map(|target| ((pos.x - target.x).abs() + (pos.y - target.y).abs()) as u32)
+        .collect()
+}
+
+pub fn dijkstra(start: Coord, board_size: (u32, u32), blocked_pos: &[Coord]) -> DijkResult {
     let mut unvisited = BinaryHeap::new();
-    let mut distances = HashMap::new();
+    let mut distances = HashMap::with_capacity(board_size.0 as usize * board_size.1 as usize);
+    let mut predecessors =
+        HashMap::<Coord, Coord>::with_capacity(board_size.0 as usize * board_size.1 as usize);
 
     distances.insert(start, 0);
     unvisited.push(DijkQueueItem {
@@ -63,13 +107,16 @@ pub fn dijkstra(
                         estimated_cost: alt_dist,
                     });
                     distances.insert(*neighbor, alt_dist);
+                    predecessors.insert(current.position, *neighbor);
                 }
             })
     }
 
-    goal.iter()
-        .map(|c| *distances.get(c).unwrap_or(&u32::MAX))
-        .collect()
+    DijkResult {
+        start,
+        distances,
+        predecessors,
+    }
 }
 
 #[cfg(test)]
