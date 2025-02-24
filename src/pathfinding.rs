@@ -29,6 +29,7 @@ impl DijkResult {
         let mut paths = HashMap::new();
         for &coord in coords {
             let mut path = Vec::new();
+            path.push(coord);
             let mut current = coord;
             while let Some(&predecessor) = self.predecessors.get(&current) {
                 path.push(predecessor);
@@ -107,7 +108,7 @@ pub fn dijkstra(start: Coord, board_size: (u32, u32), blocked_pos: &[Coord]) -> 
                         estimated_cost: alt_dist,
                     });
                     distances.insert(*neighbor, alt_dist);
-                    predecessors.insert(current.position, *neighbor);
+                    predecessors.insert(*neighbor, current.position);
                 }
             })
     }
