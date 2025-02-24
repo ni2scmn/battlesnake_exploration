@@ -1,4 +1,4 @@
-use crate::game::{Coord, Direction};
+use crate::game::{get_direction_from_to, Coord, Direction};
 use std::cmp::Ordering;
 use std::collections::{BinaryHeap, HashMap};
 use std::fmt::Debug;
@@ -50,10 +50,19 @@ impl DijkResult {
             .map(|coord| (coord, self.distances.get(&coord).unwrap_or(&u32::MAX)))
     }
 
-    pub fn get_direction_for_shortest_goal(&self, coords: &[Coord]) -> Direction {
-        self.retrieve_distances_for(coords);
+    pub fn get_direction_for_shortest_goal(&self, coords: &[Coord]) -> Option<Direction> {
+        let closest_goal = self
+            .retrieve_distances_for(coords)
+            .min_by_key(|(c, d)| **d)?
+            .0;
 
-        Direction::Up
+        let paths = self.get_paths_for(&[closest_goal.clone()]);
+
+        let path = paths.get(closest_goal)?;
+
+        let first_step = path.get(1)?;
+
+        get_direction_from_to(&self.start, first_step)
     }
 }
 
@@ -269,6 +278,80 @@ mod tests {
             Coord { x: 3, y: 4 },
         ];
 
-        assert_eq!(dijkstra(start, &goal, board_size, &blocked_pos), vec![10]);
+        assert_eq!(
+            dijkstra(start, board_size, &blocked_pos)
+                .get_distance_ref()
+                .get(&goal)
+                .unwrap()
+                .clone(),
+            10
+        );
+    }
+
+    #[test]
+    fn test_path_for_dijkstra() {
+        let mut start = Coord { x: 2, y: 2 };
+        let mut goal = Coord { x: 0, y: 0 };
+        let board_size = (3, 3);
+
+        let mut blocked_pos = vec![Coord { x: 1, y: 1 }, Coord { x: 2, y: 1 }];
+        let mut dijk_result = dijkstra(start, board_size, &blocked_pos);
+        let mut path = dijk_result
+            .get_paths_for(&[goal])
+            .get(&goal)
+            .unwrap()
+            .clone();
+        let mut expected_path = vec![
+            Coord { x: 2, y: 2 },
+            Coord { x: 1, y: 2 },
+            Coord { x: 0, y: 2 },
+            Coord { x: 0, y: 1 },
+            Coord { x: 0, y: 0 },
+        ];
+
+        assert_eq!(path, expected_path);
+
+        start = Coord { x: 0, y: 2 };
+        goal = Coord { x: 2, y: 0 };
+        blocked_pos = vec![Coord { x: 1, y: 0 }, Coord { x: 1, y: 1 }];
+        dijk_result = dijkstra(start, board_size, &blocked_pos);
+        path = dijk_result
+            .get_paths_for(&[goal])
+            .get(&goal)
+            .unwrap()
+            .clone();
+        expected_path = vec![
+            Coord { x: 0, y: 2 },
+            Coord { x: 1, y: 2 },
+            Coord { x: 2, y: 2 },
+            Coord { x: 2, y: 1 },
+            Coord { x: 2, y: 0 },
+        ];
+
+        assert_eq!(path, expected_path);
+    }
+
+    #[test]
+    fn test_shortest_path_direction_for_dijkstra() {
+        let mut start = Coord { x: 2, y: 2 };
+        let mut goal = Coord { x: 0, y: 0 };
+        let board_size = (3, 3);
+
+        let mut blocked_pos = vec![Coord { x: 1, y: 1 }, Coord { x: 2, y: 1 }];
+        let mut dijk_result = dijkstra(start, board_size, &blocked_pos);
+        let mut s_path_dir = dijk_result
+            .get_direction_for_shortest_goal(&[goal])
+            .unwrap();
+
+        assert_eq!(s_path_dir, Direction::Left);
+
+        start = Coord { x: 0, y: 2 };
+        goal = Coord { x: 2, y: 0 };
+        blocked_pos = vec![Coord { x: 1, y: 0 }, Coord { x: 1, y: 1 }];
+        dijk_result = dijkstra(start, board_size, &blocked_pos);
+        s_path_dir = dijk_result
+            .get_direction_for_shortest_goal(&[goal])
+            .unwrap();
+        assert_eq!(s_path_dir, Direction::Right);
     }
 }
