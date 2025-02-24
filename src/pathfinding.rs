@@ -191,28 +191,40 @@ mod tests {
     #[test]
     fn test_direct_path() {
         let start = Coord { x: 0, y: 0 };
-        let goal = vec![Coord { x: 3, y: 3 }];
+        let goal = Coord { x: 3, y: 3 };
         let board_size = (5, 5);
         let blocked_pos = vec![];
 
-        assert_eq!(dijkstra(start, &goal, board_size, &blocked_pos), vec![6]);
+        assert_eq!(
+            dijkstra(start, board_size, &blocked_pos)
+                .get_distance_ref()
+                .get(&goal)
+                .unwrap()
+                .clone(),
+            6
+        );
     }
 
     #[test]
     fn test_with_obstacles() {
         let start = Coord { x: 0, y: 2 };
-        let goal = vec![Coord { x: 2, y: 2 }];
+        let goal = Coord { x: 2, y: 2 };
         let board_size = (3, 3);
         let blocked_pos = vec![Coord { x: 1, y: 2 }, Coord { x: 1, y: 1 }];
 
-        assert_eq!(dijkstra(start, &goal, board_size, &blocked_pos), vec![6]);
+        assert_eq!(
+            dijkstra(start, board_size, &blocked_pos)
+                .get_distance_ref()
+                .get(&goal)
+                .unwrap()
+                .clone(),
+            6
+        );
     }
-
     #[test]
     fn test_with_obstacles2() {
         let start = Coord { x: 4, y: 3 };
-        // let goal = Coord { x: 2, y: 0 };
-        let goal = vec![Coord { x: 2, y: 0 }];
+        let goal = Coord { x: 2, y: 0 };
         let board_size = (6, 6);
 
         let blocked_pos = vec![
@@ -225,36 +237,54 @@ mod tests {
             Coord { x: 5, y: 2 },
         ];
 
-        assert_eq!(dijkstra(start, &goal, board_size, &blocked_pos), vec![13]);
+        assert_eq!(
+            dijkstra(start, board_size, &blocked_pos)
+                .get_distance_ref()
+                .get(&goal)
+                .unwrap()
+                .clone(),
+            13
+        );
     }
 
     #[test]
     fn test_no_path() {
         let start = Coord { x: 0, y: 0 };
-        let goal = vec![Coord { x: 3, y: 3 }];
+        let goal = Coord { x: 3, y: 3 };
         let board_size = (5, 5);
         let blocked_pos = (0..5).map(|i| Coord { x: i, y: 2 }).collect::<Vec<_>>();
 
         assert_eq!(
-            dijkstra(start, &goal, board_size, &blocked_pos),
-            vec![u32::MAX]
+            dijkstra(start, board_size, &blocked_pos)
+                .get_distance_ref()
+                .get(&goal)
+                .unwrap_or(&u32::MAX)
+                .clone(),
+            u32::MAX
         );
     }
 
     #[test]
     fn test_same_start_and_goal() {
         let start = Coord { x: 2, y: 2 };
-        let goal = vec![Coord { x: 2, y: 2 }];
+        let goal = Coord { x: 2, y: 2 };
         let board_size = (5, 5);
         let blocked_pos = vec![];
 
-        assert_eq!(dijkstra(start, &goal, board_size, &blocked_pos), vec![0]);
+        assert_eq!(
+            dijkstra(start, board_size, &blocked_pos)
+                .get_distance_ref()
+                .get(&goal)
+                .unwrap()
+                .clone(),
+            0
+        );
     }
 
     #[test]
     fn test_forced_longer_path() {
         let start = Coord { x: 0, y: 0 };
-        let goal = vec![Coord { x: 4, y: 4 }];
+        let goal = Coord { x: 4, y: 4 };
         let board_size = (5, 5);
         let blocked_pos = vec![
             Coord { x: 2, y: 0 },
@@ -262,13 +292,20 @@ mod tests {
             Coord { x: 2, y: 2 },
         ];
 
-        assert_eq!(dijkstra(start, &goal, board_size, &blocked_pos), vec![8]);
+        assert_eq!(
+            dijkstra(start, board_size, &blocked_pos)
+                .get_distance_ref()
+                .get(&goal)
+                .unwrap()
+                .clone(),
+            8
+        );
     }
 
     #[test]
     fn test_corner_to_corner_with_blockage() {
         let start = Coord { x: 0, y: 0 };
-        let goal = vec![Coord { x: 4, y: 4 }];
+        let goal = Coord { x: 4, y: 4 };
         let board_size = (5, 5);
         let blocked_pos = vec![
             Coord { x: 1, y: 0 },
