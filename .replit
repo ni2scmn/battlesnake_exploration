@@ -1,0 +1,12 @@
+run = "cargo run simple"
+modules = ["rust-stable", "python-3.12", "bash"]
+
+[deployment]
+run = ["sh", "-c", "cargo run simple"]
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
