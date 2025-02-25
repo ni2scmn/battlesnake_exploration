@@ -3,6 +3,8 @@ use crate::game::{all_directions, Battlesnake, Board, Direction, Game, Move};
 use crate::flood_fill::flood_fill;
 use crate::pathfinding::dijkstra;
 use rand::rng;
+
+use rand::prelude::IndexedRandom;
 use rand::Rng;
 
 pub trait Strategy {
@@ -108,11 +110,17 @@ fn flood_fill_all_directions(
 impl Strategy for SimpleStrategy {
     fn make_move(&self, game: &Game, board: &Board, snake: &Battlesnake) -> Move {
         let mut possible_moves = all_directions();
+        let goals = &board.food;
 
         self.prevent_self_collision(&mut possible_moves, snake);
         self.prevent_out_of_bounds(&mut possible_moves, board, snake);
 
         let flood_fill_scores = flood_fill_all_directions(&possible_moves, board, snake);
+        let dijk_res = dijkstra(
+            snake.head,
+            (board.width as u32, board.height as u32),
+            &snake.body,
+        );
 
         let max_ff_score = flood_fill_scores
             .iter()
@@ -120,46 +128,29 @@ impl Strategy for SimpleStrategy {
             .max()
             .unwrap_or(&usize::MAX);
 
-        let max_flood_fill_dirs = flood_fill_scores
+        let non_blocking_dirs = flood_fill_scores
             .iter()
             .filter(|(_, v)| *v == *max_ff_score)
             .map(|(k, _)| k)
             .collect::<Vec<_>>();
 
-        let max_flood_fill_pos: Vec<_> = max_flood_fill_dirs
-            .iter()
-            .map(|d| snake.head.next_coord_in_dir(d))
-            .collect();
+        let closest_food_dir = dijk_res.get_direction_for_shortest_goal(goals);
 
-        let goals = &board.food;
-
-        let x = max_flood_fill_pos
-            .iter()
-            .map(|p| {
-                dijkstra(
-                    p.clone(),
-                    (board.width as u32, board.height as u32),
-                    &snake.body,
-                )
-                .retrieve_distances_for(&goals)
-                .map(|(_, d)| d)
-                .min()
-                .unwrap()
-                .clone()
-            })
-            .enumerate()
-            .min_by(|(_, a), (_, b)| a.cmp(b))
-            .map(|(i, _)| i);
-
-        if let Some(x) = x {
-            Move {
-                dir: **max_flood_fill_dirs.get(x).unwrap(),
+        if let Some(cfd) = closest_food_dir {
+            if non_blocking_dirs.contains(&&cfd) {
+                return Move { dir: cfd };
             }
-        } else {
-            // No legal move found
-            Move {
-                dir: Direction::Down,
-            }
+        }
+
+        if !non_blocking_dirs.is_empty() {
+            return Move {
+                dir: **non_blocking_dirs.choose(&mut rand::rng()).unwrap(),
+            };
+        }
+
+        // No legal move found
+        Move {
+            dir: Direction::Down,
         }
     }
 }

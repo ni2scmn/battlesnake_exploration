@@ -9,7 +9,6 @@ mod utils;
 use crate::game::{GameState, Move};
 use crate::strategy::{RandomStrategy, SimpleStrategy, Strategy, StrategyState};
 use crate::utils::info;
-use rand::Rng;
 use rocket::http::Status;
 use rocket::serde::json::Json;
 use rocket::State;

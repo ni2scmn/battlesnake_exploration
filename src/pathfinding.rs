@@ -47,16 +47,16 @@ impl DijkResult {
     ) -> impl Iterator<Item = (&'b Coord, &'a u32)> {
         coords
             .iter()
-            .map(|coord| (coord, self.distances.get(&coord).unwrap_or(&u32::MAX)))
+            .map(|coord| (coord, self.distances.get(coord).unwrap_or(&u32::MAX)))
     }
 
     pub fn get_direction_for_shortest_goal(&self, coords: &[Coord]) -> Option<Direction> {
         let closest_goal = self
             .retrieve_distances_for(coords)
-            .min_by_key(|(c, d)| **d)?
+            .min_by_key(|(_c, d)| **d)?
             .0;
 
-        let paths = self.get_paths_for(&[closest_goal.clone()]);
+        let paths = self.get_paths_for(&[*closest_goal]);
 
         let path = paths.get(closest_goal)?;
 
@@ -100,7 +100,7 @@ pub fn dijkstra(start: Coord, board_size: (u32, u32), blocked_pos: &[Coord]) -> 
     while !unvisited.is_empty() {
         let current = unvisited.pop().unwrap();
 
-        if blocked_pos.contains(&current.position) {
+        if blocked_pos.contains(&current.position) && current.position != start {
             continue;
         }
 
