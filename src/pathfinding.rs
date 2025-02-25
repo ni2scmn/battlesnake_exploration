@@ -85,7 +85,7 @@ fn manhatten_distance(pos: Coord, targets: Vec<Coord>) -> Vec<u32> {
         .collect()
 }
 
-pub fn dijkstra(start: Coord, board_size: (u32, u32), blocked_pos: &[Coord]) -> DijkResult {
+pub fn dijkstra(start: Coord, board_size: (i32, i32), blocked_pos: &[Coord]) -> DijkResult {
     let mut unvisited = BinaryHeap::new();
     let mut distances = HashMap::with_capacity(board_size.0 as usize * board_size.1 as usize);
     let mut predecessors =

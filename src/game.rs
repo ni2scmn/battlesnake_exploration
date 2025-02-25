@@ -61,7 +61,7 @@ impl Coord {
         }
     }
 
-    pub fn neighbors(&self, board_size: (u32, u32)) -> Vec<Coord> {
+    pub fn neighbors(&self, board_size: (i32, i32)) -> Vec<Coord> {
         [
             Direction::Left,
             Direction::Right,
@@ -70,7 +70,7 @@ impl Coord {
         ]
         .iter()
         .map(|c| self.next_coord_in_dir(c))
-        .filter(|n| n.x >= 0 && n.y >= 0 && n.x < board_size.0 as i32 && n.y < board_size.1 as i32)
+        .filter(|n| n.x >= 0 && n.y >= 0 && n.x < board_size.0&& n.y < board_size.1)
         .collect()
     }
 }

@@ -1,4 +1,4 @@
-use crate::game::{all_directions, Battlesnake, Board, Direction, Game, Move};
+use crate::game::{all_directions, Battlesnake, Board, Coord, Direction, Game, Move};
 
 use crate::flood_fill::flood_fill;
 use crate::pathfinding::dijkstra;
@@ -88,21 +88,22 @@ impl SimpleStrategy {
 }
 
 fn flood_fill_all_directions(
-    directions: &[Direction],
-    board: &Board,
-    snake: &Battlesnake,
+    start: &Coord,
+    board_size: (i32, i32),
+    blocked_pos: &[Coord],
 ) -> Vec<(Direction, usize)> {
-    directions
+    all_directions()
         .iter()
-        .map(|direction| {
-            let blocked_pos = snake.body.clone();
+        .map(|d| (d, start.next_coord_in_dir(d)))
+        .filter(|(_, c)| c.x >= 0 && c.y >= 0 && c.x < board_size.0 && c.y < board_size.1)
+        .map(|(d, c)| {
             let reachable_field = flood_fill(
-                snake.head.next_coord_in_dir(direction),
+                c,
                 &blocked_pos,
-                board.height,
-                board.width,
+                board_size.0,
+                board_size.1,
             );
-            (*direction, reachable_field.len())
+            (*d, reachable_field.len())
         })
         .collect()
 }
@@ -111,15 +112,23 @@ impl Strategy for SimpleStrategy {
     fn make_move(&self, game: &Game, board: &Board, snake: &Battlesnake) -> Move {
         let mut possible_moves = all_directions();
         let goals = &board.food;
+        let board_size = (board.width, board.height);
+
+        let blocked_pos = board
+            .snakes
+            .iter()
+            .map(|s| s.body.clone())
+            .flatten()
+            .collect::<Vec<Coord>>();
 
         self.prevent_self_collision(&mut possible_moves, snake);
         self.prevent_out_of_bounds(&mut possible_moves, board, snake);
 
-        let flood_fill_scores = flood_fill_all_directions(&possible_moves, board, snake);
+        let flood_fill_scores = flood_fill_all_directions(&snake.head, board_size, &blocked_pos);
         let dijk_res = dijkstra(
             snake.head,
-            (board.width as u32, board.height as u32),
-            &snake.body,
+            board_size,
+            &blocked_pos, //&snake.body,
         );
 
         let max_ff_score = flood_fill_scores

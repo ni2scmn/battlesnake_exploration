@@ -31,6 +31,7 @@ fn handle_start(game_state: Json<GameState>) -> Status {
 #[post("/move", format = "json", data = "<game_state>")]
 fn handle_move(game_state: Json<GameState>, strategy: &State<StrategyState>) -> Json<Move> {
     // TODO
+    println!("turn: {}", game_state.turn);
     info!("MOVE");
     Json(
         strategy

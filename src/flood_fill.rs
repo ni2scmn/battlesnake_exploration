@@ -4,8 +4,8 @@ use std::collections::VecDeque;
 pub fn flood_fill(
     start: Coord,
     blocked_coords: &[Coord],
-    board_height: i32,
     board_width: i32,
+    board_height: i32,
 ) -> Vec<Coord> {
     if blocked_coords.iter().any(|c| *c == start) {
         return vec![];
