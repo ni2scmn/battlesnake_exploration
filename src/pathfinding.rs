@@ -1,10 +1,10 @@
 use crate::game::{get_direction_from_to, Coord, Direction};
 use std::cmp::Ordering;
-use std::collections::{BinaryHeap, HashMap};
+use std::collections::{BinaryHeap, HashMap, HashSet};
 use std::fmt::Debug;
 
 #[derive(Debug, Clone, Eq, PartialEq)]
-struct DijkQueueItem {
+struct QueueItem {
     estimated_cost: u32,
     position: Coord,
 }
@@ -66,22 +66,26 @@ impl DijkResult {
     }
 }
 
-impl PartialOrd for DijkQueueItem {
+impl PartialOrd for QueueItem {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         Some(self.cmp(other))
     }
 }
 
-impl Ord for DijkQueueItem {
+impl Ord for QueueItem {
     fn cmp(&self, other: &Self) -> Ordering {
         self.estimated_cost.cmp(&other.estimated_cost).reverse()
     }
 }
 
-fn manhatten_distance(pos: Coord, targets: Vec<Coord>) -> Vec<u32> {
+fn manhatten_distance(from: &Coord, to: &Coord) -> u32 {
+    ((from.x - to.x).abs() + (from.y - to.y).abs()) as u32
+}
+
+fn manhatten_distances(pos: &Coord, targets: &[Coord]) -> Vec<u32> {
     targets
         .iter()
-        .map(|target| ((pos.x - target.x).abs() + (pos.y - target.y).abs()) as u32)
+        .map(|target| manhatten_distance(pos, target))
         .collect()
 }
 
@@ -92,7 +96,7 @@ pub fn dijkstra(start: Coord, board_size: (i32, i32), blocked_pos: &[Coord]) -> 
         HashMap::<Coord, Coord>::with_capacity(board_size.0 as usize * board_size.1 as usize);
 
     distances.insert(start, 0);
-    unvisited.push(DijkQueueItem {
+    unvisited.push(QueueItem {
         estimated_cost: 0,
         position: start,
     });
@@ -112,7 +116,7 @@ pub fn dijkstra(start: Coord, board_size: (i32, i32), blocked_pos: &[Coord]) -> 
                 let current_dist = *distances.get(neighbor).unwrap_or(&u32::MAX);
                 let alt_dist = *distances.get(&current.position).unwrap() + 1;
                 if alt_dist < current_dist {
-                    unvisited.push(DijkQueueItem {
+                    unvisited.push(QueueItem {
                         position: *neighbor,
                         estimated_cost: alt_dist,
                     });
@@ -129,6 +133,19 @@ pub fn dijkstra(start: Coord, board_size: (i32, i32), blocked_pos: &[Coord]) -> 
     }
 }
 
+pub fn astarFindFirst(start: Coord, board_size: (i32, i32), blocked_pos: &[Coord], goals: &[Coord]) {
+    let mut open_set = BinaryHeap::new();
+    let mut closed_set = HashSet::new();
+
+    let start_min = goals.iter().map(|g| manhatten_distance(&start, g)).min().unwrap();
+
+    open_set.push(QueueItem {estimated_cost: start_min, position: start});
+
+    while let open_set.peek() {
+
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -137,35 +154,35 @@ mod tests {
     fn test_single_target() {
         let pos = Coord { x: 0, y: 0 };
         let targets = vec![Coord { x: 3, y: 4 }];
-        assert_eq!(manhatten_distance(pos, targets), vec![7]);
+        assert_eq!(manhatten_distances(&pos, &targets), vec![7]);
     }
 
     #[test]
     fn test_multiple_targets() {
         let pos = Coord { x: 1, y: 1 };
         let targets = vec![Coord { x: 4, y: 5 }, Coord { x: -2, y: -3 }];
-        assert_eq!(manhatten_distance(pos, targets), vec![7, 7]);
+        assert_eq!(manhatten_distances(&pos, &targets), vec![7, 7]);
     }
 
     #[test]
     fn test_same_position() {
         let pos = Coord { x: 2, y: 2 };
         let targets = vec![Coord { x: 2, y: 2 }];
-        assert_eq!(manhatten_distance(pos, targets), vec![0]);
+        assert_eq!(manhatten_distances(&pos, &targets), vec![0]);
     }
 
     #[test]
     fn test_empty_targets() {
         let pos = Coord { x: 5, y: 5 };
         let targets = vec![];
-        assert_eq!(manhatten_distance(pos, targets), Vec::<u32>::new());
+        assert_eq!(manhatten_distances(&pos, &targets), Vec::<u32>::new());
     }
 
     #[test]
     fn test_negative_coordinates() {
         let pos = Coord { x: -3, y: -3 };
         let targets = vec![Coord { x: -1, y: -6 }];
-        assert_eq!(manhatten_distance(pos, targets), vec![5]);
+        assert_eq!(manhatten_distances(&pos, &targets), vec![5]);
     }
 
     #[test]
@@ -178,14 +195,14 @@ mod tests {
             x: 2_000_000,
             y: 3_000_000,
         }];
-        assert_eq!(manhatten_distance(pos, targets), vec![3_000_000]);
+        assert_eq!(manhatten_distances(&pos, &targets), vec![3_000_000]);
     }
 
     #[test]
     fn test_mixed_sign_coordinates() {
         let pos = Coord { x: -5, y: 5 };
         let targets = vec![Coord { x: 5, y: -5 }];
-        assert_eq!(manhatten_distance(pos, targets), vec![20]);
+        assert_eq!(manhatten_distances(&pos, &targets), vec![20]);
     }
 
     #[test]
